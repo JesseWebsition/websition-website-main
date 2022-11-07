@@ -1,0 +1,187 @@
+/* Change font!
+/* Fonts */
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Poppins", sans-serif;
+  }
+  body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+    min-height: auto;
+  }
+
+  /*Disable horizontal scroll */
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+
+  #whatwedo{
+    background-image: url("images/Desktop\ -\ 22.png");
+  }
+
+  ::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: #F4FBA7;
+  }
+  
+  ::selection {
+    color: black;
+    background: #F4FBA7;
+  }
+
+
+/*add ghost element so image and navbar do not overlap */
+body::before{
+    
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+
+/* nav items */
+.active{
+    border-bottom: 1px solid #F4FBA7 ;
+    border-color: #F4FBA7;
+    
+}
+
+
+
+
+@media (min-width: 400px)
+{
+    .content-intro-wrapper {
+        
+    }
+}
+
+#card-title{
+    font-size: 2rem;
+}
+
+#card-paragraph{
+    font-size: 1.1rem;
+}
+
+#hero-paragraph{
+    font-weight: 400;
+}
+    
+#heading{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+#subheading{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+
+#heading{
+    font-weight: 700;
+    font-size: 3.0rem;
+}
+
+#subheading{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 2.8rem;
+}
+
+#hero-paragraph{
+    font-size: 1.4rem;
+    letter-spacing: 1.5;
+}
+
+#card:hover{
+    color: white;
+}
+
+#boxlala{
+    border-color: white;
+    outline: none;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    transition: 0.3s ease-in-out;
+}
+
+#boxlala1{
+    border-color: white;
+    outline: none;
+    background-color: white;
+    border: none;
+    color: black;
+  
+    text-align: center;
+    font-size: 16px;
+   
+
+    transition: 0.3s ease-in-out;
+}
+
+
+/* Testimonial section */
+
+#learn{
+    align-items: center;
+    align-self: center ;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+
+/* FAQ */
+#faq-question{
+    font-size: 1.2rem;
+}
+
+#faq-answer{
+    font-size: 1.1rem;
+}
+
+
+#contact-list{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#check-list-contact{
+    font-size: 1.3rem;
+}
+
+
+#button-get-in-touch{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+
+#button-book-a-call{
+
+}
+
+#button-book-a-call:hover{
+    color: black;
+    
+}
+
